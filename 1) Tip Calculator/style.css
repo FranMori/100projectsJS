@@ -1,0 +1,60 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+ font-weight: normal; 
+ font-size: 18px;
+ margin-top: 30px;
+ margin-bottom: 0px;
+ margin-left: 20px;
+}
+
+h3 {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+
+}
+
+input {
+  width: 80%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 3px;
+  border-radius: 5px;
+  border-color: lightgrey;
+}
+
+button {
+  width: 80.5%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: green;
+  border: 0px;
+  border-radius: 5px;
+  padding: 8px;
+  transition: background-color 0.2s ease;
+
+}
+button:hover {
+  background-color: #45a049;
+}
+
+span {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#totalValue {
+  font-weight: bold;
+}
