@@ -19,7 +19,6 @@ if (sessionStorage.getItem("tip") === null) {
   inputTip.placeholder = sessionStorage.getItem("tip")
 
 }
-console.log((totalValue.text))
 
 btnCalculate.addEventListener("click", () => {
    sessionStorage.clear
