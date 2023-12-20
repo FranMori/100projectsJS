@@ -21,8 +21,12 @@ function getDateOfBirth () {
  } else {
    age = today.getFullYear()-dateValue.getFullYear() -1
  }
-   console.log(age)
-  ageCalculated.innerText = "Your age is " + age + " yeard old"
+   if (age == 1 || age == 0) { 
+  ageCalculated.innerText = "Your age is " + age + " year old"
+} else {
+  ageCalculated.innerText = "Your age is " + age + " years old"
+
+}
 }
 
 
